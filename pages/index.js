@@ -55,7 +55,6 @@ const Home = () => {
     };
 
     useEffect(async () => {
-        console.log(`Game type changed to ${gameType}`);
         const { data } = await axios.get(`https://www.atg.se/services/racinginfo/v1/api/products/${gameType}`);
         if (data.upcoming[0]) {
             setCurrentGame(await getRace(data.upcoming[0]));

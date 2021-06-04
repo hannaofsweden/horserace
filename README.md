@@ -17,3 +17,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 -   The app uses Ant Design as the UI component library.
 -   Since styling wasn't mentioned in the task description, I've only applied the most basic styling.
 -   I noticed that not all races have a name specified. In those cases, I show the track name instead.
+-   Since the Game Type selector is visually quite strong, I felt it was unnecessary to have a separate heading for the Game Type.

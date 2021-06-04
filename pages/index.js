@@ -102,8 +102,8 @@ const Home = () => {
 						</Row>
 						<Row>
 							<Table
+                className={styles.raceTable}
 								bordered
-								style={{ width: '100%' }}
 								columns={columns}
 								dataSource={race.starts}
 								pagination={false}

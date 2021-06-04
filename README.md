@@ -3,6 +3,8 @@
 Install and run the development server:
 
 ```bash
+git clone https://github.com/hannaofsweden/horserace.git
+cd horserace
 npm install
 npm run dev
 ```

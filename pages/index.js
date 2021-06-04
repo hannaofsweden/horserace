@@ -22,6 +22,7 @@ const columns = [
         dataIndex: 'number',
         defaultSortOrder: 'ascend',
         sorter: (a, b) => a.number - b.number,
+        width: '180px',
     },
     {
         title: 'Horse name',
